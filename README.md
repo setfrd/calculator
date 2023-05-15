@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Calculator React Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple calculator component built using React, which allows users to perform basic arithmetic calculations. The component provides a user-friendly interface with buttons for digits (0-9), operators (+, -, \*, /),decimal point (.), and an equals (=) sign
 
-## Available Scripts
+Features:
 
-In the project directory, you can run:
+Real-time calculation and result display: As you input digits and operators, the calculator updates the calculation and displays the result instantly.
+Support for basic arithmetic operations: Addition (+), subtraction (-), multiplication (\*), and division (/).
+Decimal point input: Allows users to input decimal numbers for precise calculations.
+Delete last input: Includes a "DEL" button that removes the last input if a mistake is made.
 
-### `npm start`
+Usage
+To use the calculator component in your React project, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install React and other necessary dependencies if you haven't already set up your project:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npx create-react-app my-calculator
+cd my-calculator
 
-### `npm test`
+Replace the content of the App.js file in your project with the provided code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Import the necessary CSS or stylesheets and include them in your project for proper styling.
 
-### `npm run build`
+Run your React application:
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your web browser and visit http://localhost:3000 to see the calculator in action.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to customize and enhance the calculator component to suit your specific needs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Calculator React Component
+This is a simple calculator component built using React, which allows users to perform basic arithmetic calculations. The component provides a user-friendly interface with buttons for digits (0-9), operators (+, -, \*, /), decimal point (.), and an equals (=) sign.
 
-### `npm run eject`
+Features
+Real-time calculation and result display: As you input digits and operators, the calculator updates the calculation and displays the result instantly.
+Support for basic arithmetic operations: Addition (+), subtraction (-), multiplication (\*), and division (/).
+Decimal point input: Allows users to input decimal numbers for precise calculations.
+Delete last input: Includes a "DEL" button that removes the last input if a mistake is made.
+Usage
+To use the calculator component in your React project, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install React and other necessary dependencies if you haven't already set up your project:
+bash
+Copy code
+npx create-react-app my-calculator
+cd my-calculator
+Replace the content of the App.js file in your project with the provided code.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Import the necessary CSS or stylesheets and include them in your project for proper styling.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Run your React application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+Copy code
+npm start
+Open your web browser and visit http://localhost:3000 to see the calculator in action.
+Feel free to customize and enhance the calculator component to suit your specific needs.
 
-## Learn More
+Limitations
+The calculator does not support advanced mathematical functions or complex operations.
+Due to the use of eval for calculation, be cautious when using this code in a production environment, as it can pose security risks if user-provided input is involved.
+License
+This calculator React component is open-source and released under the MIT License.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author
+This calculator component was created by @setfrd(on git). Feel free to contact me with any questions or feedback
